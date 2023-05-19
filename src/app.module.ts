@@ -7,7 +7,7 @@ import { TodosModule } from './todos/todos.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://root:example@localhost:8000/nestdb'),
+    MongooseModule.forRoot('mongodb://root:example@localhost:27017/nestdb'),
     UsersModule,
     TodosModule,
   ],
